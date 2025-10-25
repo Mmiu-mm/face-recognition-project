@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# MLflow
+mlflow/artifacts/
+mlflow/models/
+
+# Data - 注意：加密的人脸数据会被跟踪，原始图像不跟踪
+data/known_faces/*.jpg
+data/known_faces/*.png
+data/unknown_faces/*.jpg
+data/unknown_faces/*.png
+!data/known_faces/.gitkeep
+!data/unknown_faces/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Virtual environmecat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# MLflow
+mlflow/artifacts/
+mlflow/models/
+
+# Data - 注意：加密的人脸数据会被跟踪，原始图像不跟踪
+data/known_faces/*.jpg
+data/known_faces/*.png
+data/unknown_faces/*.jpg
+data/unknown_faces/*.png
+!data/known_faces/.gitkeep
+!data/unknown_faces/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Virtual environment
+venv/
+
+# ML model files (large files)
+*.h5
+*.pkl
+*.joblib
